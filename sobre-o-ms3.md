@@ -6,16 +6,12 @@
 
 O **MS³** engloba os subsistemas de:
 
-* _**Ingestão e Gravação de dados:**_ com a função de _moving-window_ em tempo real, dando possibilidade de acesso remoto via web;
-* _**Processamento:**_ com a geração de produtos em diversos níveis, incluindo imagens ortorretificadas;
-* _**Disseminação \(Catálogo\):**_ com as funções de pesquisa e pedido de produtos;
-* _**Avaliação e Qualidade:**_ com as funções de avaliação das qualidades geométrica e radiométrica das imagens.
+* **Ingestão e Gravação de dados:** com a função de moving-window em tempo real, dando possibilidade de acesso remoto via web;
+* **Processamento:** com a geração de produtos em diversos níveis, incluindo imagens ortorretificadas;
+* **Disseminação \(Catálogo\):** com as funções de pesquisa e pedido de produtos;
+* **Avaliação e Qualidade:** com as funções de avaliação das qualidades geométrica e radiométrica das imagens.
 
-Estes subsistemas serão melhor apresentados nos parágrafos a seguir.
-
-{% hint style="warning" %}
- O sistema ****processa dados dos seguintes satélites \(sensores\): CBERS-1 e CBERS-2 \(CCD, IRMSS e WFI\); CBERS-2B \(CCD, HRC e WFI\); Landsat -1, Landsat-2 e Landsat-3 \(MSS\); Landsat-4 e Landsat-5 \(MSS e TM\); Landsat-7 \(ETM+\); Aqua \(MODIS\) e Terra \(MODIS\). Ele ainda é usado para ingestão dos dados dos satélites Spot e Radarsat.
-{% endhint %}
+O sistema ****processa dados dos seguintes satélites \(sensores\): CBERS-1 e CBERS-2 \(CCD, IRMSS e WFI\); CBERS-2B \(CCD, HRC e WFI\); Landsat -1, Landsat-2 e Landsat-3 \(MSS\); Landsat-4 e Landsat-5 \(MSS e TM\); Landsat-7 \(ETM+\) disponível no catálogo antigo. E disponíveis no catálogo novo CBERS-4 \(AWSI, IRS, MUX, PAN5M, PAN10M\); Landsat-8 \(OLI\).
 
 ### Arquitetura do Sistema
 
@@ -24,12 +20,14 @@ Estes subsistemas serão melhor apresentados nos parágrafos a seguir.
 O sistema foi construído totalmente com base em bibliotecas de código livre \(open-source\). Dentre as diversas bibliotecas utilizadas podem ser citadas: tiff, geotiff, jpeg, hdf5, etc.
 
 {% hint style="warning" %}
+**LINGUAGENS E BIBLIOTECAS UTILIZADAS PARA CONSTRUIR O SISTEMA.**
+
 As funcionalidades de seus subsistemas são providas através de módulos, onde os gerais não têm conhecimento de como cada satélite implementa as interfaces do sistema, isto é atingido através da ligação dinâmica \(dynamic linking\), em tempo de execução, com a biblioteca de cada satélite. O processo de desenvolvimento utiliza testes unitários e funcionais que trabalham como uma rede de segurança enquanto funcionalidades do sistema são adicionadas ou alteradas. Isto é uma pré-condição em um sistema com 300.000 linhas de código \(286677 em C++, 32866 em Python e 13315 em scripts shell e Perl\). A escalabilidade do sistema é atingida através da adição de um novo hardware ao conjunto de produção. Como este hardware é comum e de baixo custo, um aumento de demanda pode ser rapidamente atendido sem aumentar desnecessariamente a complexidade do sistema.
 {% endhint %}
 
 ### Principais sistemas
 
-> O **MS³** apresenta quatro sistemas principais: Sistema de Ingestão e Gravação, Sistema de Processamento, Sistema de Disseminação e o Sistema de Avaliação e Controle de Qualidade.
+> O **MS³** apresenta quatro sistemas principais: Sistema de Ingestão e Gravação, Sistema de Processamento, Sistema de Disseminação e o Sistema de Avaliação e Controle de Qualidade. \(SILVA, M. A. O, 2007\)
 
 O **Sistema de Ingestão e Gravação** é responsável pela ingestão e gravação dos dados transmitidos pelos satélites. A partir de um arquivo TLE \(two-line elements\), o qual contém informações de órbita do satélite, são determinados a data e os horários de início e término da passagem, com esses dados todas as passagens são agendadas automaticamente para gravação. Os dados ingeridos são gravados em arquivos no formato DRD \([Dated Raw Data](tipos-de-dados.md#drd)\). As operações de planejamento, manutenção das gravações, verificação das operações realizadas, gravação e transferência dos dados, são realizadas a partir de uma ferramenta de controle do sistema de ingestão. 
 
@@ -49,11 +47,17 @@ As imagens nos níveis de processamento 1 a 4 são geradas no formato [GeoTiff ]
 
  O **Sistema de Disseminação \(Catálogo\)** é responsável pela distribuição dos produtos. Essa distribuição é feita pela internet a partir do [Catálogo de Imagens](http://www.dgi.inpe.br/CDSR/) onde o usuário, a partir das ferramentas de consulta do catálogo, identifica as imagens desejadas e faz o pedido. As informações a respeito do processamento do pedido e o endereço para download das imagens via FTP são fornecidas via e-mail.
 
+{% embed data="{\"url\":\"http://www.dgi.inpe.br/CDSR/\",\"type\":\"link\",\"title\":\"Catálogo de Imagens\",\"icon\":{\"type\":\"icon\",\"url\":\"http://www.dgi.inpe.br/CDSR/img/icone.png\",\"aspectRatio\":0},\"caption\":\"Antigo Catálogo de imagens\"}" %}
+
+{% embed data="{\"url\":\"http://www.dgi.inpe.br/catalogo/\",\"type\":\"link\",\"title\":\"Divisão de Geração de Imagem :: Catálogo de Imagens\",\"description\":\"Página principal do site da DGI \(Divisão de Geração de Imagem\)\",\"icon\":{\"type\":\"icon\",\"url\":\"http://www.dgi.inpe.br/catalogo/img/icone.png\",\"aspectRatio\":0},\"caption\":\"Novo Catálogo de Imagens\"}" %}
+
 O **Sistema de Avaliação e Controle de Qualidade** é formado por dois aplicativos que possuem quatro objetivos principais: Visualização, Avaliação, Análise e Simulação.
 
 {% hint style="warning" %}
-O primeiro aplicativo, chamado Marlin, responde pelos dois primeiros objetivos. Foi desenvolvido tanto para o sistema operacional Linux quanto Windows, sendo distribuído gratuitamente pelo INPE aos usuários de imagens de satélite. O sistema pode trabalhar com imagens de qualquer satélite, independente da tecnologia do sensor e das resoluções espacial e radiométrica. O principal objetivo desta distribuição é fazer com que o sistema de processamento seja constantemente aprimorado para eliminar os problemas identificados e reportados pelos usuários. 
+O primeiro aplicativo, chamado **Marlin**, responde pelos dois primeiros objetivos. Foi desenvolvido tanto para o sistema operacional Linux quanto Windows, sendo distribuído gratuitamente pelo INPE aos usuários de imagens de satélite. O sistema pode trabalhar com imagens de qualquer satélite, independente da tecnologia do sensor e das resoluções espacial e radiométrica. O principal objetivo desta distribuição é fazer com que o sistema de processamento seja constantemente aprimorado para eliminar os problemas identificados e reportados pelos usuários. 
 
-O segundo aplicativo, chamado Sailfish, responde pela análise e simulação estando integrado ao Marlin e aos modelos geométricos do **MS³**. Ele permite que o analista altere parâmetros do sistema como, por exemplo, os da geometria do sensor, dados orbitais, comparando resultados obtidos por diferentes fontes de efemérides \(transmitida, pré-processada e pósprocessada\) e atitude \(transmitida e pós-processada\), sempre no sentido de identificar uma melhoria para o sistema de geração de produtos. O sistema pode ser utilizado pela área de Engenharia de Satélites, responsável pelo projeto dos diversos sistemas de um satélite, pois permite quantificação da distorção média relativa a cada um dos sistemas na qualidade geométrica das imagens.
+O segundo aplicativo, chamado **Sailfish**, responde pela análise e simulação estando integrado ao Marlin e aos modelos geométricos do MS³. Ele permite que o analista altere parâmetros do sistema como, por exemplo, os da geometria do sensor, dados orbitais, comparando resultados obtidos por diferentes fontes de efemérides \(transmitida, pré-processada e pósprocessada\) e atitude \(transmitida e pós-processada\), sempre no sentido de identificar uma melhoria para o sistema de geração de produtos. O sistema pode ser utilizado pela área de Engenharia de Satélites, responsável pelo projeto dos diversos sistemas de um satélite, pois permite quantificação da distorção média relativa a cada um dos sistemas na qualidade geométrica das imagens.
 {% endhint %}
+
+
 

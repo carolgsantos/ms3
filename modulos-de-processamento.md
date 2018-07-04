@@ -20,9 +20,7 @@ O módulo denominado **G2Q** \(GRALHA to Quicklook\), produz, a partir do GRALHA
 
 O principal módulo de geração de imagens denominado **G2T** \(GRALHA to Tiff\), é onde são geradas, a partir do GRALHA, as imagens de nível 1 a 4 de processamento citadas na explicação do [**Sistema de Processamento**](sobre-o-ms3.md#principais-sistemas)**.**
 
-### H2T
-
-Outro módulo de processamento disponível denominado **H2T** \(HDF to GeoTiff\), tem como objetivo principal a geração de imagens georreferenciadas a partir de diferentes conjuntos de dados do sensor MODIS. Os dados gerados pelas aplicações MODIS podem ser divididos em dois grandes grupos: os armazenados em formato HDF e os armazenados em [HDF-EOS](tipos-de-dados.md#hdf-e-hdf-eos). O diferencial existente entre os dois formatos é que no HDF-EOS pode-se consultar porções dos dados armazenados através de coordenadas espaciais e temporais. Dentre outras funcionalidades, este módulo também permite a correção da distorção panorâmica da imagem \(efeito bowtie\).
+ADICIONAR NOVOS MODULOS QUE SÃO UTILIZADOS
 
 {% hint style="warning" %}
 ### Interação com o **MS³**
