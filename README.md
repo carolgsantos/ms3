@@ -2,17 +2,15 @@
 
 ![](.gitbook/assets/logo-ms3-copia.PNG)
 
- O MS3 \(Multi Satellite Station System\) consiste num sistema para a ingestão, gravação e processamento de imagens de sensoriamento remoto, incluindo também a avaliação e o controle de qualidade de imagens CBERS \(China-Brazil Earth Resources Satellite\).
+ O **MS³** \(Multi Satellite Station System\) consiste num sistema para a ingestão, gravação e processamento de imagens de sensoriamento remoto, incluindo também a avaliação e o controle de qualidade de imagens CBERS \(China-Brazil Earth Resources Satellite\).
 
 {% tabs %}
 {% tab title="Links de Acesso" %}
-Artigos:
+[Wiki em Inglês](http://enms3wiki.dpi.inpe.br/wiki/Main_Page)
 
-[http://docs.fct.unesp.br/departamentos/cartografia/eventos/2007\_II\_SBG/artigos/A\_068.pdf](http://docs.fct.unesp.br/departamentos/cartografia/eventos/2007_II_SBG/artigos/A_068.pdf)
-{% endtab %}
+[Wiki em Português](http://ptms3wiki.dpi.inpe.br/wiki/Main_Page)
 
-{% tab title="Contato" %}
-
+[Artigo: Processamento de Imagens de Sensoriamento Remoto no MS³](http://docs.fct.unesp.br/departamentos/cartografia/eventos/2007_II_SBG/artigos/A_068.pdf)
 {% endtab %}
 {% endtabs %}
 
