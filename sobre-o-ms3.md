@@ -40,7 +40,7 @@ O **Sistema de Processamento** é responsável pela geração das imagens em dif
 * Imagem Nível 3: imagem com correções radiométrica e geométrica de sistema, refinada pelo uso de pontos de controle; 
 * Imagem Nível 4: imagem com correções radiométrica e geométrica de sistema, refinada pelo uso de pontos de controle e de um Modelo Numérico de Elevação do Terreno \(MNET\). 
 
-As imagens nos níveis de processamento 1 a 4 são geradas no formato [GeoTiff ](tipos-de-dados.md#tiff-e-geotiff)acompanhadas de um arquivo de metadados no formato XML. A imagem nível 0 é gerada no formato GRALHA \([Generic Raw Level Hierarchical Archive](tipos-de-dados.md#gralha)\), um formato desenvolvido para o armazenamento de dados brutos decodificados. O processamento é dívido em [módulos](modulos-de-processamento.md), que serão melhor explicados ao longo do documento.
+As imagens nos níveis de processamento 1 a 4 são geradas no formato [GeoTiff ](tipos-de-dados.md#tiff-e-geotiff)acompanhadas de um arquivo de metadados no formato XML. A imagem nível 0 é gerada no formato GRALHA \([Generic Raw Level Hierarchical Archive](tipos-de-dados.md#gralha)\), um formato desenvolvido para o armazenamento de dados brutos decodificados. O processamento é dívido em [módulos](), que serão melhor explicados ao longo do documento.
 
  O **Sistema de Disseminação \(Catálogo\)** é responsável pela distribuição dos produtos. Essa distribuição é feita pela internet a partir do [Catálogo de Imagens](http://www.dgi.inpe.br/CDSR/) onde o usuário, a partir das ferramentas de consulta do catálogo, identifica as imagens desejadas e faz o pedido. As informações a respeito do processamento do pedido e o endereço para download das imagens via FTP são fornecidas via e-mail.
 
