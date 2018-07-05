@@ -1,6 +1,6 @@
 # Módulos de Processamento
 
-## Conhecendo os Módulos de Processamento
+## Entendendo os Módulos de Processamento
 
 Para a produção de imagens em diferentes níveis de processamento, o MS³ é composto por um conjunto de módulos. Estes módulos manipulam diferentes tipos de dados para gerar o produto desejado.
 
@@ -20,7 +20,9 @@ O módulo denominado **G2Q** \(GRALHA to Quicklook\), produz, a partir do GRALHA
 
 O principal módulo de geração de imagens denominado **G2T** \(GRALHA to Tiff\), é onde são geradas, a partir do GRALHA, as imagens de nível 1 a 4 de processamento citadas na explicação do [**Sistema de Processamento**](sobre-o-ms3.md#principais-sistemas)**.**
 
-ADICIONAR NOVOS MODULOS QUE SÃO UTILIZADOS
+{% hint style="warning" %}
+**ADICIONAR NOVOS MODULOS QUE SÃO UTILIZADOS AQUI NO INPE**
+{% endhint %}
 
 {% hint style="warning" %}
 ### Interação com o **MS³**
