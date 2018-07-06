@@ -1,13 +1,11 @@
 ---
 description: >-
-  Documentação personalizada sobre funcionamento e uso do sistema MS³ para
-  processar e disseminar dados de determinados satélites, pela Divisão de
+  Documentação personalizada sobre funcionamento e uso do sistema de
+  processamento e distribuição de imagens de satélites, pela Divisão de
   Processamento de Imagens (DPI/INPE).
 ---
 
 # Início
-
-![](.gitbook/assets/logo-ms3-copia.PNG)
 
  O **MS³** \(Multi Satellite Station System\) consiste num sistema para a ingestão, gravação e processamento de imagens de sensoriamento remoto, incluindo também a avaliação e o controle de qualidade de imagens CBERS \(China-Brazil Earth Resources Satellite\).
 
@@ -17,7 +15,9 @@ description: >-
 
 [Wiki em Português](http://ptms3wiki.dpi.inpe.br/wiki/Main_Page)
 
-[Artigo: Processamento de Imagens de Sensoriamento Remoto no MS³](http://docs.fct.unesp.br/departamentos/cartografia/eventos/2007_II_SBG/artigos/A_068.pdf)
+**Artigos:**
+
+{% embed data="{\"url\":\"http://docs.fct.unesp.br/departamentos/cartografia/eventos/2007\_II\_SBG/artigos/A\_068.pdf\",\"type\":\"rich\",\"embed\":{\"type\":\"reader\",\"url\":\"https://docs.google.com/viewer?embedded=true&url=http%3A%2F%2Fdocs.fct.unesp.br%2Fdepartamentos%2Fcartografia%2Feventos%2F2007\_II\_SBG%2Fartigos%2FA\_068.pdf\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 141.4227%;\\\"><iframe src=\\\"https://docs.google.com/viewer?embedded=true&amp;url=http%3A%2F%2Fdocs.fct.unesp.br%2Fdepartamentos%2Fcartografia%2Feventos%2F2007\_II\_SBG%2Fartigos%2FA\_068.pdf\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":0.7071}}" %}
 
 **Catálogos:**
 
@@ -27,10 +27,6 @@ description: >-
 {% endtab %}
 
 {% tab title="Download" %}
-
-{% endtab %}
-
-{% tab title="Contato" %}
 
 {% endtab %}
 {% endtabs %}

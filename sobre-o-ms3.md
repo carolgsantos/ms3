@@ -22,6 +22,8 @@ Processa dados dos seguintes satélites \(sensores\):
 | CBERS-4  | new | AWSI, IRS, MUX, PAN5M, PAN10M |
 | Landsat-8  | new | OLI |
 
+Atualmente existem duas bases responsáveis pela recepção 
+
 ### Principais subsistemas
 
 O **MS³** apresenta quatro sistemas principais: Sistema de Ingestão e Gravação, Sistema de Processamento, Sistema de Disseminação e o Sistema de Avaliação e Controle de Qualidade. 
@@ -45,4 +47,14 @@ As imagens nos níveis de processamento 1 a 4 são geradas no formato [GeoTiff ]
  O **Sistema de Disseminação \(Catálogo\)** é responsável pela distribuição dos produtos. Essa distribuição é feita pela internet a partir do [Catálogo de Imagens](http://www.dgi.inpe.br/CDSR/) onde o usuário, a partir das ferramentas de consulta do catálogo, identifica as imagens desejadas e faz o pedido. As informações a respeito do processamento do pedido e o endereço para download das imagens via FTP são fornecidas via e-mail.
 
 O **Sistema de Avaliação e Controle de Qualidade** é formado por dois aplicativos que possuem quatro objetivos principais: visualização, avaliação, análise e simulação. O primeiro aplicativo é o Marlin um sistema distribuído gratuitamente para os usuários de imagens de satélites. O sistema pode trabalhar com imagens de qualquer satélite, independente da tecnologia do sensor e das resoluções espacial e radiométrica. O principal objetivo desta distribuição é fazer com que o sistema de processamento seja constantemente aprimorado para eliminar os problemas identificados e reportados pelos usuários \(SILVA, M. A. O, 2007\). O segundo aplicativo é o Sailfish, que está integrado ao Marlin e aos modelos geométricos do MS³. Ele permite que o analista altere parâmetros do sistema como, por exemplo, os da geometria do sensor, dados orbitais, comparando resultados obtidos por diferentes fontes de efemérides e atitude, sempre no sentido de identificar uma melhoria para o sistema de geração de produtos. \(SILVA, M. A. O, 2007\)
+
+### Funcionamento Geral
+
+![](.gitbook/assets/sis-proc4.png)
+
+### Arquitetura
+
+![Arquitetura e processos dos servidores utilizados para processamento de imagens CBERS](.gitbook/assets/proc_env_dpi.png)
+
+
 
