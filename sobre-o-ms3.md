@@ -22,7 +22,17 @@ Processa dados dos seguintes satélites \(sensores\):
 | CBERS-4  | new | AWSI, IRS, MUX, PAN5M, PAN10M |
 | Landsat-8  | new | OLI |
 
-Atualmente existem duas bases responsáveis pela recepção 
+Atualmente existem duas bases responsáveis pela recepção dos dado de satélites, sendo elas uma base instalada em Cuiabá e outra em Cachoeira Paulista. Cada uma delas possui um conjunto de antenas dispostas para receber dados de determinados satélites.
+
+| Antenas | Desde \(Ano\) | Satélites |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| CB1 \(1.5m Banda L\) | 2013 | METOP-B, NOAA-15, NOAA-18, NOAA-19, FENGYUNG |
+| CB10 \(10m Banda X e S\) | 1982 | AQUA, TERRA, CBERS-4, LANDSAT-7, RESOURCESAT-2 |
+| CB11 \(11.28m Banda X\) | 1998 | AQUA, TERRA, CBERS-4, LANDSAT-7, NPP, LANDSAT-8, RESOURCESAT-2 |
+| CP1 \(1.8m Banda L\) | 2012 | METOP-B, NOAA-15, NOAA-18, NOAA-19 |
+| CP2 \(1.5m Banda L\) | 2013 | NOAA-15, NOAA-18, NOAA-19 |
+| CP3 \(2.5m Banda L\) | 2014 | GOES-13 |
+| CP5 \(5.4m Banda X\) | 2009 | AQUA, TERRA, NPP, CBERS-4 |
 
 ### Principais subsistemas
 
