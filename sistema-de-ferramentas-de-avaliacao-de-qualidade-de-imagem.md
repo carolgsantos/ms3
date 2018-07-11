@@ -2,7 +2,7 @@
 description: Sistema de avaliação e controle de qualidade de imagens.
 ---
 
-# Ferramentas de avaliação de qualidade de imagem
+# Ferramentas de avaliação de qualidade de imagens
 
 O MS3 fornece ferramentas para realizar avaliações de qualidade geométrica e radiométrica, incluindo ferramentas de simulação para estudar, por exemplo, como a correção geométrica é afetada por fatores como imprecisão de dados de telemetria e ruído. O sistema fornece as ferramentas Marlin e Sailfish para realizar avaliações de qualidade geométrica e radiométrica. 
 

@@ -4,11 +4,13 @@ description: Sistema MS³ em versão 6.7.1
 
 # Sobre o MS³
 
+![](.gitbook/assets/logo-ms3-500.PNG)
+
 > O MS³ ****\(Sistema de Estações Multi-Satélite\) consiste num sistema para a ingestão, gravação e processamento de imagens de sensoriamento remoto, incluindo também a avaliação e o controle de qualidade de imagens CBERS \(China-Brazil Earth Resources Satellite\).
 >
 > O principal objetivo do projeto **MS³** é o barateamento do desenvolvimento e da operação do sistema de processamento de imagens de satélite do INPE, mantendo, ao mesmo tempo, um sistema flexível que permita a rápida adição de novos satélites e sensores. \(SILVA, M. A. O, 2007\)
 
-O sistema foi construído totalmente com base em bibliotecas de código livre. Dentre as diversas bibliotecas utilizadas podem ser citadas: tiff, geotiff, jpeg, hdf5, etc.
+O sistema foi construído totalmente com base em softwares e bibliotecas de código livre. Como por exemplo: Linux, GCC, Apache, Python, Pylons, MySQL, as bibliotecas Tiff, GeoTiff, JPEG, HDF, XML, etc.
 
 Processa dados dos seguintes satélites \(sensores\):
 
@@ -22,9 +24,9 @@ Processa dados dos seguintes satélites \(sensores\):
 | CBERS-4  | new | AWSI, IRS, MUX, PAN5M, PAN10M |
 | Landsat-8  | new | OLI |
 
-Atualmente existem duas bases responsáveis pela recepção dos dado de satélites, sendo elas uma base instalada em Cuiabá e outra em Cachoeira Paulista. Cada uma delas possui um conjunto de antenas dispostas para receber dados de determinados satélites.
+Atualmente existem duas bases responsáveis pela recepção dos dado de satélites, sendo elas uma base instalada em Cuiabá e outra em Cachoeira Paulista. Cada uma delas possui um conjunto de antenas dispostas para receber dados de determinados satélites, como:
 
-| Antenas | Desde \(Ano\) | Satélites |
+| **Antenas** | **Desde\(Ano\)** | **Satélites** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | CB1 \(1.5m Banda L\) | 2013 | METOP-B, NOAA-15, NOAA-18, NOAA-19, FENGYUNG |
 | CB10 \(10m Banda X e S\) | 1982 | AQUA, TERRA, CBERS-4, LANDSAT-7, RESOURCESAT-2 |
@@ -62,7 +64,7 @@ O **Sistema de Avaliação e Controle de Qualidade** é formado por dois aplicat
 
 ![](.gitbook/assets/sis-proc4.png)
 
-### Arquitetura
+### Arquitetura e infraestrutura de armazenamento
 
 ![Arquitetura e processos dos servidores utilizados para processamento de imagens CBERS](.gitbook/assets/proc_env_dpi.png)
 

@@ -2,7 +2,7 @@
 description: Sistema de ingestão e gravação de dados de telemetria.
 ---
 
-# Ingestão de telemetria
+# Ingestão e Gravação de Imagens
 
 O MS3 é capaz de ingerir dados brutos de satélites e, para alguns dispositivos, exibir uma janela de movimentação em tempo quase real, na qual os dados gravados são mostrados. A janela móvel geralmente é usada na mesma máquina em que os dados são gravados, mas também pode ser usada em locais remotos.
 

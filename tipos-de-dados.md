@@ -1,4 +1,4 @@
-# Tipos de dados
+# Tipos de dados gerados
 
 ## Entendendo os tipos de Dados 
 

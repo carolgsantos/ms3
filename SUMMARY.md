@@ -2,11 +2,12 @@
 
 * [Início](README.md)
 * [Sobre o MS³](sobre-o-ms3.md)
-* [Tipos de dados](tipos-de-dados.md)
-* [Ingestão de telemetria](sistema-de-ingestao-de-telemetria.md)
-* [Processamento de imagem](sistema-de-processamento-de-imagem.md)
-* [Distribuição de produtos](sistema-de-distribuicao-de-produtos-via-satelite.md)
-* [Ferramentas de avaliação de qualidade de imagem](sistema-de-ferramentas-de-avaliacao-de-qualidade-de-imagem.md)
+* [Projeto CBERS](cbers.md)
+* [Mini Estação INPE](mini-estacao-inpe.md)
+* [Tipos de dados gerados](tipos-de-dados.md)
+* [Ingestão e Gravação de Imagens](sistema-de-ingestao-de-telemetria.md)
+* [Processamento de imagens](sistema-de-processamento-de-imagem.md)
+* [Distribuição de imagens](sistema-de-distribuicao-de-produtos-via-satelite.md)
+* [Ferramentas de avaliação de qualidade de imagens](sistema-de-ferramentas-de-avaliacao-de-qualidade-de-imagem.md)
 * [Instalação do sistema](instalacao-do-sistema.md)
-* [Referências](referencias.md)
 

@@ -2,7 +2,7 @@
 description: Sistema de disseminação dos produtos de satélites gerados.
 ---
 
-# Distribuição de produtos
+# Distribuição de imagens
 
 O MS3 é capaz de controlar o fluxo de produção de imagens de satélite a partir dos dados brutos até a entrega do produto ao usuário final, suportando as operações de navegação e pesquisa por meio de um sistema de catálogo baseado na web.
 

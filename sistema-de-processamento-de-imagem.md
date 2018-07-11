@@ -2,7 +2,7 @@
 description: Sistema de processamento de imagens.
 ---
 
-# Processamento de imagem
+# Processamento de imagens
 
 O MS3 é capaz de executar as operações necessárias através de dados de telemetria por satélite para gerar produtos de imagem de satélite, até produtos ortorretificados.
 
