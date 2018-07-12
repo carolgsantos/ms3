@@ -64,9 +64,9 @@ O **Sistema de Avaliação e Controle de Qualidade** é formado por dois aplicat
 
 ![](.gitbook/assets/sis-proc4.png)
 
-### Arquitetura e infraestrutura de armazenamento
+### Visão detalhada
 
-![Arquitetura e processos dos servidores utilizados para processamento de imagens CBERS](.gitbook/assets/proc_env_dpi.png)
+![](.gitbook/assets/sis-proc-det.png)
 
 
 

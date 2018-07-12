@@ -9,5 +9,5 @@
 * [Processamento de imagens](sistema-de-processamento-de-imagem.md)
 * [Distribuição de imagens](sistema-de-distribuicao-de-produtos-via-satelite.md)
 * [Ferramentas de avaliação de qualidade de imagens](sistema-de-ferramentas-de-avaliacao-de-qualidade-de-imagem.md)
-* [Instalação do sistema](instalacao-do-sistema.md)
+* [Instalação dos sistemas](instalacao-do-sistema.md)
 

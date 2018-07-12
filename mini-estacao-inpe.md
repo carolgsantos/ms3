@@ -13,5 +13,9 @@
 * Gerente executivo
   * Fornece estatísticas gerais
 
+### Arquitetura e infraestrutura de armazenamento
+
+![Arquitetura e processos dos servidores utilizados para processamento de imagens CBERS](.gitbook/assets/proc_env_dpi.png)
+
 
 
