@@ -36,7 +36,7 @@ Imagem GeoTiff com correção radiométrica e sistema geométrico refinada usand
 
 ### Quicklook
 
-Imagem colorida de baixa resolução espacial no formato JPEG. As visualizações rápidas são as imagens mostradas pelo MSTIC \(MS3 Image Catalog\). O módulo g2q gera este produto.
+Imagem colorida de baixa resolução espacial no formato JPEG. As visualizações rápidas são as imagens mostradas pelo MSTIC \(MS3 Image Catalog\). O módulo G2Q gera este produto.
 
 [![](http://enms3wiki.dpi.inpe.br/en.w/images/thumb/f/fd/Quicklook.jpg/400px-Quicklook.jpg)](http://enms3wiki.dpi.inpe.br/wiki/File:Quicklook.jpg)[![](http://enms3wiki.dpi.inpe.br/en.w/skins/common/images/magnify-clip.png)](http://enms3wiki.dpi.inpe.br/wiki/File:Quicklook.jpg)Quicklook.
 
@@ -76,7 +76,7 @@ O módulo denominado **G2Q** \(GRALHA to Quicklook\), produz, a partir do GRALHA
 O principal módulo de geração de imagens denominado **G2T** \(GRALHA to Tiff\), é onde são geradas, a partir do GRALHA, as imagens de nível 1 a 4 de processamento citadas na explicação do [**Sistema de Processamento**](sobre-o-ms3.md#principais-sistemas)**.**
 
 {% hint style="warning" %}
-**ADICIONAR NOVOS MODULOS QUE SÃO UTILIZADOS AQUI NO INPE**
+**ADICIONAR NOVOS MODULOS QUE SÃO UTILIZADOS AQUI NO INPE.**
 {% endhint %}
 
 {% hint style="warning" %}
