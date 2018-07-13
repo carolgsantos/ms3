@@ -2,17 +2,15 @@
 description: China-Brazil Earth Resources Satellite
 ---
 
-# Projeto CBERS
+# Sobre o projeto CBERS
 
 ![Fonte: CBERS/INPE &#x2013; Divulga&#xE7;&#xE3;o](http://www.cbers.inpe.br/img/satelites/maior/cbers4.jpg)
 
 Satélite Sino-Brasileiro de Recursos Terrestres, uma cooperação entre Brasil e China \(no final anos 80\). Foram lançados 5 satélites, onde em 2004 adotou-se a política de distribuição de dados gratuita.
 
-> Suas imagens são usadas em importantes campos, como o controle do desmatamento e queimadas na Amazônia Legal, o monitoramento de recursos hídricos, áreas agrícolas, crescimento urbano, ocupação do solo, em educação e em inúmeras outras aplicações.
->
-> Também é fundamental para grandes projetos nacionais estratégicos, como o [PRODES](http://www.obt.inpe.br/prodes/), de avaliação do desflorestamento na Amazônia, o [DETER](http://www.obt.inpe.br/deter/), de avaliação do desflorestamento em tempo real, e o monitoramento das áreas canavieiras \([CANASAT](http://www.dsr.inpe.br/mapdsr/)\), entre outros. \(CBERS/INPE – Divulgação\)
+> Suas imagens são usadas em importantes campos, como o controle do desmatamento e queimadas na Amazônia Legal, o monitoramento de recursos hídricos, áreas agrícolas, crescimento urbano, ocupação do solo, em educação e em inúmeras outras aplicações. Também é fundamental para grandes projetos nacionais estratégicos, como o [PRODES](http://www.obt.inpe.br/prodes/), de avaliação do desflorestamento na Amazônia, o [DETER](http://www.obt.inpe.br/deter/), de avaliação do desflorestamento em tempo real, e o monitoramento das áreas canavieiras \([CANASAT](http://www.dsr.inpe.br/mapdsr/)\), entre outros. \(CBERS/INPE – Divulgação\)
 
-| Satélite | Lançamento | Fim de operação |
+| **Satélite** | **Lançamento** | **Fim de operação** |
 | --- | --- | --- | --- | --- | --- |
 | CBERS-1 | Out. 1999 | Ago. 2003 |
 | CBERS-2 | Out. 2003 | Jan. 2009 |
@@ -22,14 +20,14 @@ Satélite Sino-Brasileiro de Recursos Terrestres, uma cooperação entre Brasil 
 
 ## CBERS 4
 
-> O lançamento do CBERS-4, inicialmente previsto para dezembro de 2015, foi antecipado para 07 de dezembro de 2014. Nesta data, o satélite foi lançado com sucesso a partir do Centro de Lançamento de Satélites de Tayuan \(TSLC\), localizado na província de Shanxi, a 760 km a sudoeste de Pequim. \(\)
+> O lançamento do CBERS-4, inicialmente previsto para dezembro de 2015, foi antecipado para 07 de dezembro de 2014. Nesta data, o satélite foi lançado com sucesso a partir do Centro de Lançamento de Satélites de Tayuan \(TSLC\), localizado na província de Shanxi, a 760 km a sudoeste de Pequim.\(CBERS/INPE – Divulgação\)
 
 ![Fonte: G1.com.br \(CBERS/INPE &#x2013; Divulga&#xE7;&#xE3;o\)](http://s2.glbimg.com/MbsJmTkU2aCdRTa01kAL9GFyfag=/s.glbimg.com/jo/g1/f/original/2014/11/28/cbers4.jpg)
 
 A plataforma CBERS-4 possui quatro sistemas imageadores:
 
-* Câmera Pancromática e Multiespectral \(PAN\);
 * Câmera Multiespectral Regular \(MUX\);
+* Câmera Pancromática e Multiespectral \(PAN\);
 * Imageador Multiespectral e Termal \(IRS\);
 * Câmera de Campo Largo \(WFI\).
 
@@ -43,7 +41,7 @@ A plataforma CBERS-4 possui quatro sistemas imageadores:
 | Revisita real | 26 dias | não | 26 dias | 5 dias |
 | Quantização | 8 bits | 8 bits | 8 bits | 10 bits |
 
-Faixas Espectrais:
+Legenda das Faixas Espectrais:
 
 * **Azul** \(B\)
 * **Verde** \(G\)

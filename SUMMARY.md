@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Início](README.md)
-* [Sobre o MS³](sobre-o-ms3.md)
-* [Projeto CBERS](cbers.md)
+* [Sistema de Estações Multi-Satélite](README.md)
+* [Sobre o sistema MS³](sobre-o-ms3.md)
+* [Sobre o projeto CBERS](cbers.md)
 * [Tipos de dados gerados](tipos-de-dados.md)
 * [Ingestão e Gravação de Imagens](sistema-de-ingestao-de-telemetria.md)
 * [Processamento de imagens](sistema-de-processamento-de-imagem.md)

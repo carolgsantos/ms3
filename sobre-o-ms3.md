@@ -2,25 +2,27 @@
 description: Sistema MS³ em versão 6.7.1
 ---
 
-# Sobre o MS³
+# Sobre o sistema MS³
 
 ![](.gitbook/assets/logo-ms3-500.PNG)
 
-> O **MS³**\(Sistema de Estações Multi-Satélite\) consiste num sistema para a ingestão, gravação e processamento de imagens de sensoriamento remoto, incluindo também a avaliação e o controle de qualidade de imagens CBERS \(China-Brazil Earth Resources Satellite\). O principal objetivo do projeto é o barateamento do desenvolvimento e da operação do sistema de processamento de imagens de satélite do INPE, mantendo, ao mesmo tempo, um sistema flexível que permita a rápida adição de novos satélites e sensores. \(SILVA, M. A. O, 2007\)
+O **MS³** \(Multi Satellite Station System\) é um sistema utilizado para realizar a ingestão, gravação e processamento de imagens de sensoriamento remoto, além de avaliar e controlar a qualidade dessas imagens, como por exemplo as imagens CBERS \([China-Brazil Earth Resources Satellite](cbers.md)\).
 
-O sistema foi construído totalmente com base em softwares e bibliotecas de código livre. Como por exemplo: Linux, GCC, Apache, Python, Pylons, MySQL, as bibliotecas Tiff, GeoTiff, JPEG, HDF, XML, etc.
+O principal objetivo do projeto é o barateamento do desenvolvimento e da operação do sistema de processamento de imagens de satélite do INPE, mantendo, ao mesmo tempo, um sistema flexível que permita a rápida adição de novos satélites e sensores. \(SILVA, M. A. O, 2007\)
 
-Processa dados dos seguintes satélites \(sensores\):
+O sistema foi construído com base em softwares e bibliotecas de código livre. Como por exemplo: Linux, GCC, Apache, Python, MySQL, as bibliotecas Tiff, GeoTiff, JPEG, HDF, XML, etc.
 
-| **Satélites** | **Catalog** | **Sensores** |
+Ele processa dados dos seguintes satélites \(sensores\):
+
+| **Satélites** | **Catálogo** | **Sensores** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| CBERS-1 e CBERS-2  | old | CCD, IRMSS e WFI |
-| CBERS-2B | old | CCD, HRC e WFI |
-| Landsat -1, Landsat-2 e Landsat-3  | old | MSS |
-| Landsat-4 e Landsat-5  | old | MSS e TM |
-| Landsat-7 | old | ETM |
-| CBERS-4  | new | AWSI, IRS, MUX, PAN5M, PAN10M |
-| Landsat-8  | new | OLI |
+| CBERS-1 e CBERS-2  | antigo | CCD, IRMSS e WFI |
+| CBERS-2B | antigo | CCD, HRC e WFI |
+| Landsat -1, Landsat-2 e Landsat-3  | antigo | MSS |
+| Landsat-4 e Landsat-5  | antigo | MSS e TM |
+| Landsat-7 | antigo | ETM |
+| CBERS-4  | novo | AWSI, IRS, MUX, PAN5M, PAN10M |
+| Landsat-8  | novo | OLI |
 
 Atualmente existem duas bases responsáveis pela recepção dos dado de satélites, sendo elas uma base instalada em _Cuiabá_ e outra em _Cachoeira Paulista_. Cada uma delas possui um conjunto de antenas dispostas para receber dados de determinados satélites, como:
 
@@ -38,7 +40,7 @@ Atualmente existem duas bases responsáveis pela recepção dos dado de satélit
 
 O **MS³** apresenta quatro sistemas principais: sistema de _Ingestão e Gravação_, de _Processamento_, de _Disseminação_ e de _Avaliação e Controle de Qualidade_. 
 
-O **Sistema de Ingestão e Gravação** é responsável pela ingestão e gravação dos dados transmitidos pelos satélites. A partir de um arquivo TLE \(two-line elements\), que contém informações de órbita do satélite, são determinados data e horários de início e término da passagem, com esses dados todas as passagens são agendadas automaticamente para gravação. Os dados ingeridos são gravados em arquivos no formato DRD \([Dated Raw Data](tipos-de-dados.md#drd)\). As operações de planejamento, manutenção das gravações, verificação das operações realizadas, gravação e transferência dos dados, são realizadas a partir de uma ferramenta de controle do sistema de ingestão.
+O **Sistema de Ingestão e Gravação** é responsável pela ingestão e gravação dos dados transmitidos pelos satélites, onde a partir de um arquivo TLE \(two-line elements\), que contém informações de órbita do satélite, são determinados data e horários de início e término da passagem, com esses dados todas as passagens são agendadas automaticamente para gravação. Os dados ingeridos são gravados em arquivos no formato DRD \([Dated Raw Data](tipos-de-dados.md#drd)\). As operações de planejamento, manutenção das gravações, verificação das operações realizadas, gravação e transferência dos dados, são realizadas a partir de uma ferramenta de controle do sistema de ingestão.
 
 Durante a ingestão é possível a visualização em tempo real dos dados através da ferramenta _Moving Window_, onde além da imagem ela apresenta as informações do satélite, do canal e os dados da recepção \(identificação do satélite, time-code, time-stamp, e configuração de bandas\). Os dados ingeridos também podem ser visualizados remotamente.
 
