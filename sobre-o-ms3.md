@@ -68,5 +68,5 @@ O segundo aplicativo é o _Sailfish_, que está integrado ao primeiro sistema e 
 
 ### Visão detalhada:
 
-![](.gitbook/assets/sis-proc-det%20%282%29.png)
+![](.gitbook/assets/sis-proc-det-small-2.png)
 
