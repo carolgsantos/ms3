@@ -1,5 +1,5 @@
 ---
-description: China-Brazil Earth Resources Satellite
+description: China-Brazil Earth Resources Satellite.
 ---
 
 # Sobre o projeto CBERS

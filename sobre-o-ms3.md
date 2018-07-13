@@ -1,5 +1,5 @@
 ---
-description: Sistema MS³ em versão 6.7.1
+description: Sistema MS³ em versão 6.7.1.
 ---
 
 # Sobre o sistema MS³

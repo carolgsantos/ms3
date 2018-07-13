@@ -1,14 +1,10 @@
 ---
-description: Sistema de ingestão e gravação de dados de telemetria.
+description: Sistema de ingestão e gravação de dados brutos de satélites.
 ---
 
 # Ingestão e Gravação de Imagens
 
 O MS3 é capaz de ingerir dados brutos de satélites e, para alguns dispositivos, exibir uma janela de movimentação em tempo quase real, na qual os dados gravados são mostrados. A janela móvel geralmente é usada na mesma máquina em que os dados são gravados, mas também pode ser usada em locais remotos.
-
-### Ambiente operacional
-
-Salvo indicação anterior, os recursos de processamento apresentados neste documento requerem o Red Hat Enterprise Linux 5 ou similar, como o CentOS 5. Atualmente, a única exceção é a exibição da janela de movimentação remota, que também é executada nos sabores do Windows XP e do Windows Vista.
 
 ### Características 
 
