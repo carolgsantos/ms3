@@ -1,6 +1,9 @@
-# Estação no INPE
+# Estação do INPE
 
- Estação de processamento - Subsistemas
+{% hint style="warning" %}
+**ESCREVER MAIS SOBRE:**  
+  
+Subsistemas da estação de processamento: 
 
 * Gerente de produção
   * Configuração do sistema
@@ -12,6 +15,7 @@
   * Envia as requisições dos usuários
 * Gerente executivo
   * Fornece estatísticas gerais
+{% endhint %}
 
 ### Arquitetura e infraestrutura de armazenamento
 

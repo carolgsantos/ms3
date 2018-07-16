@@ -4,7 +4,7 @@ description: Sistema de avaliação e controle de qualidade de imagens.
 
 # Ferramentas de avaliação de qualidade de imagens
 
-O MS3 fornece ferramentas para realizar avaliações de qualidade geométrica e radiométrica, incluindo ferramentas de simulação para estudar, por exemplo, como a correção geométrica é afetada por fatores como imprecisão de dados de telemetria e ruído. O sistema fornece as ferramentas Marlin e Sailfish para realizar as avaliações.
+O  MS³ fornece ferramentas para realizar avaliações de qualidade geométrica e radiométrica, incluindo ferramentas de simulação para estudar, por exemplo, como a correção geométrica é afetada por fatores como imprecisão de dados de telemetria e ruído. O sistema fornece as ferramentas Marlin e Sailfish para realizar as avaliações.
 
 O Marlin é um software gratuito para visualizar imagens de satélite e realizar avaliações de qualidade geométrica e radiométrica. E o Sailfish inclui funcionalidades para estudar assuntos sobre como a correção geométrica é afetada por fatores como imprecisão de dados de telemetria e ruído, parâmetros de calibração, entre outros.
 

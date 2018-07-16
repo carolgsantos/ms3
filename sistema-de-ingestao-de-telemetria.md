@@ -4,7 +4,7 @@ description: Sistema de ingestão e gravação de dados brutos de satélites.
 
 # Ingestão e Gravação de Imagens
 
-O MS3 é capaz de ingerir dados brutos de satélites e, para alguns dispositivos, exibir uma janela de movimentação em tempo quase real, na qual os dados gravados são mostrados. A janela móvel geralmente é usada na mesma máquina em que os dados são gravados, mas também pode ser usada em locais remotos.
+O  MS³ é capaz de ingerir dados brutos de satélites e, para alguns dispositivos, exibir uma janela de movimentação em tempo quase real, na qual os dados gravados são mostrados. A janela móvel geralmente é usada na mesma máquina em que os dados são gravados, mas também pode ser usada em locais remotos.
 
 ### Características 
 
@@ -21,7 +21,7 @@ As principais características relacionadas à ingestão de telemetria são:
 
 Cada máquina física possui uma placa de aquisição de telemetria instalada. Esta placa é responsável por converter a telemetria de informação analógica para digital. Para obter uma lista de placas de ingestão suportadas, características elétricas e de interface, consulte [Ingestion Boards](http://enms3wiki.dpi.inpe.br/wiki/Ingestion_Boards). Cada máquina física é conectada às outras através de uma rede Ethernet.
 
-O módulo MS3 T2D, telemetria para dados, é responsável por coletar os dados da placa de aquisição, registrando os dados brutos em um arquivo local, um arquivo DRD, sincroniza e decodifica os dados em tempo real para enviar a imagem e algumas informações auxiliares para o _Moving Windows_.
+O módulo  MS³ T2D, telemetria para dados, é responsável por coletar os dados da placa de aquisição, registrando os dados brutos em um arquivo local, um arquivo DRD, sincroniza e decodifica os dados em tempo real para enviar a imagem e algumas informações auxiliares para o _Moving Windows_.
 
 A [_Moving Windows_](sistema-de-ingestao-de-telemetria.md#moving-window) __exibe a imagem e os dados auxiliares para o usuário. Ele é executado localmente e pode ser executado remotamente também, permitindo que os usuários, longe do local de ingestão, visualizem os dados que estão sendo gravados. A comunicação entre as janelas móveis através do protocolo TCP e uma repetição pode ser usada em algumas configurações para melhorar o desempenho da rede.
 
@@ -31,7 +31,7 @@ Alguns serviços externos:
 
 Referência temporal: Cada máquina física deve se conectar a um servidor NTP para garantir uma referência de tempo suficiente. Os relógios de todas as máquinas físicas estão definidos como UTC.
 
-Recuperação de TLE: Cada máquina física se conecta a um repositório TLE externo e obtém automaticamente dados TLE atualizados para cada satélite suportado. Os TLEs são usados ​​por alguns módulos MS3 para algumas funções, como previsões de passagem de satélite para um site específico. Esta atualização é realizada por um módulo MS3 chamado oda.
+Recuperação de TLE: Cada máquina física se conecta a um repositório TLE externo e obtém automaticamente dados TLE atualizados para cada satélite suportado. Os TLEs são usados ​​por alguns módulos  MS³ para algumas funções, como previsões de passagem de satélite para um site específico. Esta atualização é realizada por um módulo  MS³ chamado oda.
 
 #### Moving Window
 
