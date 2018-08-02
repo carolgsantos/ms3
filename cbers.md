@@ -11,7 +11,7 @@ Satélite Sino-Brasileiro de Recursos Terrestres, uma cooperação entre Brasil 
 > Suas imagens são usadas em importantes campos, como o controle do desmatamento e queimadas na Amazônia Legal, o monitoramento de recursos hídricos, áreas agrícolas, crescimento urbano, ocupação do solo, em educação e em inúmeras outras aplicações. Também é fundamental para grandes projetos nacionais estratégicos, como o [PRODES](http://www.obt.inpe.br/prodes/), de avaliação do desflorestamento na Amazônia, o [DETER](http://www.obt.inpe.br/deter/), de avaliação do desflorestamento em tempo real, e o monitoramento das áreas canavieiras \([CANASAT](http://www.dsr.inpe.br/mapdsr/)\), entre outros. \(CBERS/INPE – Divulgação\)
 
 | **Satélite** | **Lançamento** | **Fim de operação** |
-| --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- |
 | CBERS-1 | Out. 1999 | Ago. 2003 |
 | CBERS-2 | Out. 2003 | Jan. 2009 |
 | CBERS-2B | Set. 2007 | Mar. 2010 |
@@ -32,7 +32,7 @@ A plataforma CBERS-4 possui quatro sistemas imageadores:
 * Câmera de Campo Largo \(WFI\).
 
 | **Características das Câmeras do CBERS 4** | **MUX** | **PAN** | **IRS** | **WFI** |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | Bandas Espectrais | 0,45-0,52μm \(B\) 0,52-0,59μm \(G\) 0,63-0,69μm \(R\) 0,77-0,89μm \(NIR\) | 0,51-0,85μm \(Pan\) 0,52-0,59μm \(G\) 0,63-0,69μm \(R\) 0,77-0,89μm \(NIR\) | 0,50-0,90μm \(Pan\) 1,55-1,75μm \(SWIR\) 2,08-2,35μm \(SWIR\) 10,40-12,50μm \(TH\) | 0,45-0,52μm \(B\) 0,52-0,59μm \(G\) 0,63-0,69μm \(R\) 0,77-0,89μm \(NIR\) |
 | Resolução | 20 m | 5 m / 10 m | 40 m / 80 m \(TIR\) | 64 m |
 | Largura da Faixa Imageada | 120 km | 60 km | 120 km | 866 km |

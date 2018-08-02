@@ -15,7 +15,7 @@ O sistema foi construído com base em softwares e bibliotecas de código livre. 
 Ele processa dados dos seguintes satélites \(sensores\):
 
 | **Satélites** | **Catálogo** | **Sensores** |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- |
 | CBERS-1 e CBERS-2  | antigo | CCD, IRMSS e WFI |
 | CBERS-2B | antigo | CCD, HRC e WFI |
 | Landsat -1, Landsat-2 e Landsat-3  | antigo | MSS |
@@ -27,7 +27,7 @@ Ele processa dados dos seguintes satélites \(sensores\):
 Atualmente existem duas bases responsáveis pela recepção dos dado de satélites, sendo elas uma base instalada em _Cuiabá_ e outra em _Cachoeira Paulista_. Cada uma delas possui um conjunto de antenas dispostas para receber dados de determinados satélites, como:
 
 | **Antenas** | **Desde\(Ano\)** | **Satélites** |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- |
 | CB1 \(1.5m Banda L\) | 2013 | METOP-B, NOAA-15, NOAA-18, NOAA-19, FENGYUNG |
 | CB10 \(10m Banda X e S\) | 1982 | AQUA, TERRA, CBERS-4, LANDSAT-7, RESOURCESAT-2 |
 | CB11 \(11.28m Banda X\) | 1998 | AQUA, TERRA, CBERS-4, LANDSAT-7, NPP, LANDSAT-8, RESOURCESAT-2 |

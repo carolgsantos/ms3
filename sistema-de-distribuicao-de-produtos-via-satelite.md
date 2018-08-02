@@ -8,15 +8,15 @@ O  MS³ é capaz de controlar o fluxo de produção de imagens de satélite a pa
 
 Este controle é feito por três sub-sistemas:
 
-* Catálogo de imagens, composto por MSTIC \( MS³ Image Catalog\);
+* Catálogo de imagens, ~~composto por MSTIC \( MS³ Image Catalog\);~~
 * Gestão de produção, composto por MSTERPIECE \( MS³ Resource Production & Control Environment\);
 * Relatório executivo, composto pelo MSTERY \( MS³ Executive Report Yielder\).
 
-### MSTIC
+### Catálogo de Imagens
 
-O MSTIC \( MS³ Image Catalog\) é um sistema web construído na API do Google Maps para pesquisa, seleção e entrega dos produtos gerados pelo  MS³. O catálogo possui uma interface amigável que permite a sua utilização por qualquer usuário. Facilita a navegação e a localização de imagens em diferentes locais do globo. Entrega dados de nível 1, nível 2, nível 2A, nível 2B, nível 3, nível 4, ajuste, refletância, máscara de nuvem, máscara de sombra e produtos de mosaicos multitemporais \([instalação do MSTIC](http://enms3wiki.dpi.inpe.br/wiki/Mstic)\).
-
-.[![](http://enms3wiki.dpi.inpe.br/en.w/images/thumb/f/f1/Catalog2.jpg/600px-Catalog2.jpg)](http://enms3wiki.dpi.inpe.br/wiki/File:Catalog2.jpg)[![](http://enms3wiki.dpi.inpe.br/en.w/skins/common/images/magnify-clip.png)](http://enms3wiki.dpi.inpe.br/wiki/File:Catalog2.jpg) MS³ Image Catalog.[![](http://enms3wiki.dpi.inpe.br/en.w/images/thumb/0/04/Catalog1.jpg/600px-Catalog1.jpg)](http://enms3wiki.dpi.inpe.br/wiki/File:Catalog1.jpg)[![](http://enms3wiki.dpi.inpe.br/en.w/skins/common/images/magnify-clip.png)](http://enms3wiki.dpi.inpe.br/wiki/File:Catalog1.jpg) MS³ Image Catalog.[![](http://enms3wiki.dpi.inpe.br/en.w/images/thumb/8/8d/Catalog3.jpg/600px-Catalog3.jpg)](http://enms3wiki.dpi.inpe.br/wiki/File:Catalog3.jpg)[![](http://enms3wiki.dpi.inpe.br/en.w/skins/common/images/magnify-clip.png)](http://enms3wiki.dpi.inpe.br/wiki/File:Catalog3.jpg) MS³ Image Catalog.[![](http://enms3wiki.dpi.inpe.br/en.w/images/thumb/e/e6/Catalog5.jpg/600px-Catalog5.jpg)](http://enms3wiki.dpi.inpe.br/wiki/File:Catalog5.jpg)[![](http://enms3wiki.dpi.inpe.br/en.w/skins/common/images/magnify-clip.png)](http://enms3wiki.dpi.inpe.br/wiki/File:Catalog5.jpg) MS³ Image Catalog.[![](http://enms3wiki.dpi.inpe.br/en.w/images/thumb/0/0a/Catalog6.jpg/600px-Catalog6.jpg)](http://enms3wiki.dpi.inpe.br/wiki/File:Catalog6.jpg)[![](http://enms3wiki.dpi.inpe.br/en.w/skins/common/images/magnify-clip.png)](http://enms3wiki.dpi.inpe.br/wiki/File:Catalog6.jpg) MS³ Image Catalog.
+{% hint style="warning" %}
+Escrever sobre o catálogo de imagens..
+{% endhint %}
 
 ### MSTERPIECE
 
